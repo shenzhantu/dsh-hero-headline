@@ -1,0 +1,40 @@
+{
+  "name": "dsh-hero-headline",
+  "version": "1.0.0",
+  "description": "Rename the DeepSeek Harness empty-state hero headline（探索未至之境 / Into the Unknown）to a custom word（语录）and hide the adjacent Preview badge. Client-only DOM swap, no source/core changes.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [],
+      "immediately": true
+    }
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "hero",
+    "headline",
+    "branding",
+    "text",
+    "web-ui"
+  ],
+  "license": "MIT"
+}

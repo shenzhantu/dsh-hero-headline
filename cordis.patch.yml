@@ -1,0 +1,6 @@
+# dsh-hero-headline bundle patch: mount the client-only hero headline rename.
+# `name` is the package name, resolved through the profile's node_modules.
+# The client half loads immediately (platform: web); the host half is a no-op.
+- insert:
+    - id: dsh-hero-headline
+      name: dsh-hero-headline
