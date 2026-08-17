@@ -1,7 +1,7 @@
 {
   "name": "dsh-hero-headline",
   "version": "1.0.0",
-  "description": "Rename the DeepSeek Harness empty-state hero headline（探索未至之境 / Into the Unknown）to a custom word（语录）and hide the adjacent Preview badge. Client-only DOM swap, no source/core changes.",
+  "description": "Replace the DeepSeek Harness empty-state hero headline（探索未至之境 / Into the Unknown）with custom text, style it as art text, recolor the hero whale, and auto-pick the text gradient from the background (Monet-style palette). Client-only DOM swap, no core changes.",
   "type": "module",
   "main": "./index.js",
   "exports": {
@@ -36,5 +36,13 @@
     "text",
     "web-ui"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shenzhantu/dsh-hero-headline.git"
+  },
+  "homepage": "https://github.com/shenzhantu/dsh-hero-headline",
+  "bugs": {
+    "url": "https://github.com/shenzhantu/dsh-hero-headline/issues"
+  },
   "license": "MIT"
 }
