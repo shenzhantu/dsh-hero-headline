@@ -36,13 +36,13 @@ bundle 插件，装进目标 profile（如 `web`）：
 
 ```sh
 cd <dsh-source>
-pnpm dsh plugin --profile web add 'github:<owner>/dsh-hero-headline'
+pnpm dsh plugin --profile web add 'github:shenzhantu/dsh-hero-headline'
 ```
 
 或手工等价操作：
 
 1. `$DSH_HOME/profiles/<profile>/package.json` 的 `dependencies` 加
-   `"dsh-hero-headline": "github:<owner>/dsh-hero-headline"`；
+   `"dsh-hero-headline": "github:shenzhantu/dsh-hero-headline"`；
 2. 同文件 `dsh.profile.bundles` 末尾追加 `"dsh-hero-headline"`；
 3. 在 profile 目录执行 `pnpm install`，重启 `dsh-web`。
 
